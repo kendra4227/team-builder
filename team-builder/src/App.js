@@ -1,5 +1,7 @@
 import './App.css';
-import React, {useState} from "react-dom";
+import React, {useState} from "react";
+import Forms from "./Forms";
+import Member from "./Member";
 
 const App = () => {
   const [members, setMembers] = useState([
